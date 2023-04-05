@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Diccionario web</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--Parte del buscador de palabras-->
+    <h1>Diccionario web</h1>
+    <form>
+      <input type="text" id="search-input" placeholder="Buscar...">
+      <button type="submit" id="search-btn">Buscar</button>
+    </form>
+    <div id="search-results"></div>
+
+    <!--Elegir tipografia-->
+    <section class="letra">
+        <h2>Tipo de letra</h2>
+        <div class="btn-group">
+          <button class="boton" id="arial">Arial</button>
+          <button class="boton" id="helvetica">Helvetica</button>
+          <button class="boton" id="georgia">Georgia</button>
+          <button class="boton" id="robotp">Roboto</button>
+          <button class="boton" id="verdana">Verdana</button>
+        </div>
+      </section>
+
+
+    <!--Elegir modo oscuro o modo claro-->
+    <section class="container">
+		<h2>Modo Claro/Oscuro</h2>
+		<p>Haz clic en el botón para cambiar el modo de la página.</p>
+		<a href="#" class="btn" id="toggle-mode-btn">Modo Claro</a>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
